@@ -5,7 +5,7 @@ const TechItem = ({ tech }) => {
   return (
     <li className={'collection-item'}>
       <div>
-        {tech.firstname} {tech.lastname}
+        {tech.firstName} {tech.lastName}
         <a href={'#!'} className={'secondary-content'}>
           <i className={'fa fa-trash fa-2x grey-text'} />
         </a>

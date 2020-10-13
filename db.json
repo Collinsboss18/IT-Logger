@@ -10,26 +10,38 @@
     {
       "id": 2,
       "message": "Hard drive failed in workstation 002",
+      "attention": true,
+      "tech": "Sara Wilson",
+      "date": "2020-10-13T15:27:33.546Z"
+    },
+    {
+      "message": "Review server in workstation 027",
       "attention": false,
       "tech": "Sara Wilson",
-      "date": "2020-10-13T03:48:29.253Z"
+      "date": "2020-10-13T15:27:26.689Z",
+      "id": 3
     }
   ],
   "techs": [
     {
       "id": 1,
-      "firstname": "Sam",
-      "lastname": "Smith"
+      "firstName": "Sam",
+      "lastName": "Smith"
     },
     {
       "id": 2,
-      "firstname": "John",
-      "lastname": "Doe"
+      "firstName": "John",
+      "lastName": "Doe"
     },
     {
       "id": 3,
-      "firstname": "Sara",
-      "lastname": "Wilson"
+      "firstName": "Sara",
+      "lastName": "Wilson"
+    },
+    {
+      "firstName": "Gorge",
+      "lastName": "Harris",
+      "id": 4
     }
   ]
 }
