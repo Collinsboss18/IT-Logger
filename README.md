@@ -1,1 +1,0 @@
-<!-- Don't Forget to use PWA - Service Worker  -->
