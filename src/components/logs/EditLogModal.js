@@ -22,10 +22,10 @@ const EditLogModal = ({ updateLog, current }) => {
 		if (message === '' || tech === '') {
 			M.toast({ html: 'Please enter a Message and Tech' });
 		} else {
-      //
-      const updLog = { id: current.id, message, attention, tech, date: new Date() };
-      updateLog(updLog);
-      M.toast({ html: `Log updated by ${tech}` });
+			//
+			const updLog = { id: current.id, message, attention, tech, date: new Date() };
+			updateLog(updLog);
+			M.toast({ html: `Log updated by ${tech}` });
 			// Clear Fields
 			setMessage('');
 			setAttention(false);
@@ -39,13 +39,7 @@ const EditLogModal = ({ updateLog, current }) => {
 				<h4>Enter System Log</h4>
 				<div className={'row'}>
 					<div className={'input-field'}>
-						<input
-							type={'text'}
-							placeholder={'Log Message'}
-							name={'message'}
-							value={message}
-							onChange={(e) => setMessage(e.target.value)}
-						/>
+						<input type={'text'} placeholder={'Log Message'} name={'message'} value={message} onChange={(e) => setMessage(e.target.value)} />
 						<label htmlFor={'message'} className={'active'}>
 							Log Message
 						</label>
@@ -54,7 +48,7 @@ const EditLogModal = ({ updateLog, current }) => {
 				<div className={'row'}>
 					<div className={'input-field'}>
 						<select name={'tech'} value={tech} className={'browser-default'} onChange={(e) => setTech(e.target.value)}>
-							<option value='' disabled>
+							<option value="" disabled>
 								Select Technician
 							</option>
 							<TechSelectOptions />

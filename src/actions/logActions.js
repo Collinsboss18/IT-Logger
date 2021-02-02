@@ -1,14 +1,4 @@
-import {
-	GET_LOGS,
-	SET_LOADING,
-	LOG_ERROR,
-	ADD_LOG,
-	UPDATE_LOG,
-	DELETE_LOG,
-	SET_CURRENT,
-	CLEAR_CURRENT,
-	SEARCH_LOGS,
-} from './types';
+import { GET_LOGS, SET_LOADING, LOG_ERROR, ADD_LOG, UPDATE_LOG, DELETE_LOG, SET_CURRENT, CLEAR_CURRENT, SEARCH_LOGS } from './types';
 
 /** export const getLogs = () => {
     return async (dispatch) => {
